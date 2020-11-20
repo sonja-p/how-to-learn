@@ -1,0 +1,11 @@
+.cards__item {
+    padding-top: 60px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__item:not(:nth-child(3)) {
+    margin-right: 100px;
+}
