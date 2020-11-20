@@ -1,12 +1,14 @@
 .header__link {
-    font-size: 18px;
-    line-height: 25px;
-    color: #2f80ed;
-    text-decoration: none;
-  }
-  
-  .header__link:hover {
-    color: #2f80ed;
-    opacity: 55%;
-    transition: .2s linear .2s;
-  }
+  font-size: 18px;
+  line-height: 25px;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #2f80ed;
+  opacity: 55%;
+  -webkit-transition: .2s linear .2s;
+  -o-transition: .2s linear .2s;
+  transition: .2s linear .2s;
+}
